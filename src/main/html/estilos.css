@@ -1,0 +1,49 @@
+button {
+  height: 50px;
+  width: 50px;
+  margin: 10px 4px;
+}
+
+#limpar {
+  border: none;
+}
+#clear {
+  border: none;
+}
+
+.calcBG {
+  width: 250px;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin: 25vh auto;
+}
+.screen {
+  height: 40px;
+  padding: 10px;
+  margin: 10px 2px;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: whitesmoke;
+}
+small {
+  color: #fff;
+  font-weight: bold;
+}
+
+#bcalc {
+  border-radius: 25px;
+  background-color: black;
+}
+#login {
+  margin-top: 250px;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 25px;
+}
+#entrar {
+  width: 15vh;
+}

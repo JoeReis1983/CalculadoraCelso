@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+
+    <link href="node_modules/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="estilos.css" rel="stylesheet">
+    <script type="text/javascript" src="javascript.js"></script>
+    <script type="text/javascript">
+        function acessar() {
+            window.open('http://localhost:8080/Calculadora/calc', 'self');
+        }
+    </script>
+</head>
+
+<body>
+    <div class="container text-center">
+        <div>
+            <div>
+                <form action="calc" id='login' name='login' method="GET">
+                    <div>
+                        <h1>Calculadora do Celso</h1>
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label>Login</label>
+                        <input id="nome" name="nome" type="text">
+                    </div>
+                    <div class="form-group">
+                        <label>Senha</label>
+                        <input id="senha" name="senha" type="password">
+                    </div>
+                    <div>
+                        <input type="submit" id='entrar'
+                            class="btn btn-success btn-lg" value="Entrar" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    button {
+        height: 50px;
+        width: 50px;
+        margin: 10px 4px;
+    }
+
+    #equals {
+        width: 10.5vh
+    }
+
+
+    #limpar {
+
+        border: none;
+    }
+
+    #clear {
+
+        border: none;
+    }
+
+    #equals {
+
+        border: none;
+    }
+
+    .calcBG {
+        width: 250px;
+        padding: 20px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin: 25vh auto;
+    }
+
+    .screen {
+        height: 40px;
+        padding: 10px;
+        margin: 10px 2px;
+        font-size: 16px;
+        font-weight: bold;
+        background-color: whitesmoke;
+    }
+
+    small {
+        color: #fff;
+        font-weight: bold;
+    }
+
+    #bcalc {
+        border-radius: 25px;
+        background-color: black
+    }
+
+    #login {
+        margin-top: 250px;
+        background-color: black;
+        color: white;
+        padding: 50px;
+        font-size: 30px;
+        font-weight: bold;
+        border-radius: 25px;
+    }
+
+    #entrar {
+        width: 15vh;
+    }
+</style>
+
+</html>

@@ -1,0 +1,9 @@
+REQUISITOS ESPECÍFICOS SISTEMA 3 (APÓS AULAS REMOTAS EMERGENCIAIS) Desenvolver uma calculadora que é somente acessível a 
+usuários logados. Os usuários com acesso à calculadora são registrados em banco de dados. Todas as operações são efetuadas
+no back end que recebe, via requisição AJAX, os 2 operandos e a operação a ser efetuada, retornando o resultado. Tudo o que 
+é feito na calculadora é armazenado em banco de dados e, caso se deseje, pode-se examinar uma página de histórico de operações. 
+O histórico mostra O usuário que acessou, a operação realizada, os operandos e o horário em que a operação foi executada. 
+As operações que devem ser implementadas (todas para pontos flutuantes), são: soma,  subtração,  multiplicação,  divisão, 
+potenciação  (ab)  e  radiciação √푎್.  Deve  haver verificação para evitar operações inadequadas, tais com divisão por zero.
+Resumidamente,  deve  haver  3  interfaces  com  usuário:  login,  calculadora  e  histórico  de operações. As operações de 
+acesso aos dados devem ser: leitura (login e visualizar histórico) e inserção (inserir no histórico). 
